@@ -1,0 +1,122 @@
+/* Import van mijn eigen lettertype */
+@font-face {
+    font-family: 'StalinistOne-Regular';
+    src: url('./Fonts/StalinistOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('./Fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'ZenKurenaido';
+    src: url('./Fonts/ZenKurenaido-Regular.ttf');
+}
+
+/* NAVBAR */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #bfc2c5;
+    justify-content: center;
+    align-items: center;
+}
+
+.topnav {
+    height: 100px;
+    background-color: #fc5dff;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-family: Roboto-Regular;
+    font-weight: 700;
+}
+
+.topnav a {
+    margin-left: 30px;
+    float: left;
+    display: block;
+    color: #3C3C3C;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 16px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+/* Centered text */
+.centered-text {
+    margin-left: auto;
+    margin-right: auto;
+    color: #3C3C3C;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 50%;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    gap: -10100px;
+    row-gap: -10000px;
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 75%;
+    height: auto;
+}
+
+.biggerf{
+    max-width: 100%;
+}
+
+h2{
+    font-family: ZenKurenaido;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+.material-symbols-outlined{
+    margin-left: 2%;
+    font-size: 50px;
+     cursor: pointer;
+}
+
+
+
+
+.footer {
+    background-color: #000;
+    color: white;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+}
